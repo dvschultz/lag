@@ -33,7 +33,8 @@ from urllib import request
 import lmdb
 import numpy as np
 import scipy.io
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from google_drive_downloader import GoogleDriveDownloader as gdd
 from tqdm import trange, tqdm
 
