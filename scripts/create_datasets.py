@@ -37,7 +37,7 @@ import tensorflow as tf
 from google_drive_downloader import GoogleDriveDownloader as gdd
 from tqdm import trange, tqdm
 
-inport libml
+import libml
 from libml.data import DATA_DIR
 
 URLS = {
